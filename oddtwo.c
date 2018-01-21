@@ -2,23 +2,22 @@
 int main()
 {
  int low, high, i, flag;
- printf("Enter two numbers(intervals): ");
+ printf("Enter two odd numbers(intervals): ");
  scanf("%d %d", &low, &high);
- printf("Prime numbers between %d and %d are: ", low, high);
- while (low < high)
+ while (low >high)
  {
  flag = 0;
- for(i = 2; i <= low/2; ++i)
+ for(i = 2; i <= high/2; ++i)
  {
- if(low % i == 0)
+ if(high% i == 0)
  {
  flag = 1;
- brea;
+ break;
  }
  }
  if (flag == 0)
- printf("%d ", low);
- ++low;
+ printf("%d ", high);
+ ++high;
  }
  return 0;
 }
