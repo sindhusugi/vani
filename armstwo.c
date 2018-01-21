@@ -15,8 +15,7 @@ temp1 /= 10;
 } 
 while (temp2 != 0)       
 {            
-remainder = temp2 % 10;            
-result += pow(remainder, n);           
+remainder = temp2 % 10;           
 temp2 /= 10;        
 }       
 if (result == i) 
