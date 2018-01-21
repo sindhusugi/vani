@@ -14,9 +14,6 @@ if(low % i == 0)
 flag = 1;
 break;
 }
-}
-if (flag == 0)
-printf("%d ", low);
 ++low;
 }
 return 0;
